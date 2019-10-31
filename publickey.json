@@ -1,0 +1,18 @@
+{
+    "AccountPublicKey": "GJfhYUb81RPEqmVurQBao8LbTNJiFYnsZgU2VuvZGJhY",
+    "AccountSecreKey": "4,223,212,119,18,135,79,155,26,167,226,121,181,34,198,56,186,79,115,4,226,219,44,101,108,153,106,66,165,238,143,3,227,101,239,76,138,207,189,116,41,61,89,64,88,80,7,251,178,4,197,100,83,132,219,73,5,25,201,193,255,248,51,11",
+    "TokenInfos": [
+        {
+            "tokenpubkey": "ATC6dmFJNASAQSTc6CKvqfwTq86Yjo9KedH2BmRkhKqd",
+            "tokenaccpubkey": "2ocRBzYZuHc3PPFsUYxyJpPX1mx28ViFzFJkjfk9HGzf",
+            "tokenlogo": "bit_up.png",
+            "tokenname": "DDUP"
+        },
+        {
+            "tokenpubkey": "EpyKiKBBGDUX9KaFALPMmCtNjpEp1tymBiPGiwP9z31j",
+            "tokenaccpubkey": "5YS8a6hjnrnVWr4BSaFcjJefUT8i8CXoEVzyu3P2VCWX",
+            "tokenlogo": "bit_up.png",
+            "tokenname": "DDUP"
+        }
+    ]
+}
