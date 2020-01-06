@@ -48,7 +48,7 @@ export class CreateNewToken extends React.Component {
       async () => {
         const b = await this.props.conn.fetchAccountBalance(this.props.web3jAccount.pubKey);
         if (b <= 0) {
-          alert('您的余额不足，无法创建代币');
+          alert('您的余额不足，无法创建通宝');
           return;
         }
         const [token, pubkey] = await web3.Token.createNewToken(
@@ -114,7 +114,7 @@ export class CreateNewToken extends React.Component {
                 <div className="ui container sc-gqjmRU lkQupP" style={{display: 'block', width: '100%', marginLeft: 'auto !important', marginRight: 'auto !important', maxWidth: '100% !important'}}>
                   <div className="ui grid title-section" style={{marginTop:'-1rem',marginBottom:'-1rem',marginLeft:'-1rem',marginRight:'-1rem'}}>
                     <div className="one column row page-title center" style={{width:'100%',textAlign:'center', marginLeft:'0'}}>
-                      <h1 className="title">创建代币
+                      <h1 className="title">创建通宝
                       </h1>
                     </div>
                   </div>

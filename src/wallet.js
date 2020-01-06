@@ -1503,9 +1503,9 @@ export class Wallet extends React.Component {
         <div className="desktopOnly" style={{backgroundColor:'#fefeff',height:'', whiteSpace:'nowrap', boxSizing:'border-box'}}>
           <div style={{textAlign:'center',whiteSpace:'nowrap',overflowX:'',maxWidth:'100%', margin:'0 5%', display:'flex', padding:'0'}}>
             <a style={this.state.accountinfo_btn_style} onClick={() => this.onAccountInfoBtnClick()}><p>账户信息</p></a>
-            <a style={this.state.transfer_bus_btn_style} onClick={() => this.onTransferBusBtnClick()}><p>BR交易</p></a>
-            <a style={this.state.create_new_token_btn_style} onClick={() => this.onCreateNewTokenBtnClick()}><p>创建代币</p></a>
-            <a style={this.state.transfer_token_btn_style} onClick={() => this.onTransferTokenBtnClick()}><p>资产管理</p></a>
+            <a style={this.state.transfer_bus_btn_style} onClick={() => this.onTransferBusBtnClick()}><p>转账管理</p></a>
+            <a style={this.state.create_new_token_btn_style} onClick={() => this.onCreateNewTokenBtnClick()}><p>创建通宝</p></a>
+            <a style={this.state.transfer_token_btn_style} onClick={() => this.onTransferTokenBtnClick()}><p>通宝管理</p></a>
             <a style={this.state.dapp_btn_style} onClick={() => this.onDappBtnClick()}><p>分布式应用</p></a>
           </div>
         </div>
@@ -1521,13 +1521,13 @@ export class Wallet extends React.Component {
               <p>账户信息</p>
             </a>
             <a className={this.state.mobile_navbar_transferbus_classname} onClick={() => this.onTransferBusBtnClick()}>
-              <p>BR交易</p>
+              <p>转账管理</p>
             </a>
             <a className={this.state.mobile_navbar_createnewtoken_classname} onClick={() => this.onCreateNewTokenBtnClick()}>
-              <p>创建代币</p>
+              <p>创建通宝</p>
             </a>
             <a className={this.state.mobile_navbar_transfertoken_classname} onClick={() => this.onTransferTokenBtnClick()}>
-              <p>资产管理</p>
+              <p>通宝管理</p>
             </a>
             <a className={this.state.mobile_navbar_dapp_classname} onClick={() => this.onDappBtnClick()}>
               <p>分布式应用</p>
@@ -1630,7 +1630,7 @@ export class Wallet extends React.Component {
         <Panel style={{display: 'none'}}>
           <Panel.Heading>
             <img src="img/new_token.png"/>
-            创建代币
+            创建通宝
           </Panel.Heading>
           <Panel.Body>
             <TokenSupplyInput onTokenSupply={(supply) => this.setTokenSupply(supply)}/>

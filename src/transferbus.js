@@ -78,7 +78,7 @@ export class TransferBus extends React.Component {
                   <div className="ui container sc-gqjmRU lkQupP" style={{display: 'block', width: '100%', marginLeft: 'auto !important', marginRight: 'auto !important', maxWidth: '100% !important'}}>
                     <div className="ui grid title-section" style={{marginTop:'-1rem',marginBottom:'-1rem',marginLeft:'-1rem',marginRight:'-1rem'}}>
                       <div className="one column row page-title center" style={{width:'100%',textAlign:'center', marginLeft:'0'}}>
-                        <h1 className="title">BR交易
+                        <h1 className="title">转账管理
                         </h1>
                       </div>
                     </div>
